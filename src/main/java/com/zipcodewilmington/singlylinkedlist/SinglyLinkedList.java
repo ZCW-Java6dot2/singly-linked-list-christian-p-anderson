@@ -2,9 +2,7 @@ package com.zipcodewilmington.singlylinkedlist;
 
 /**
  * Created by leon on 1/10/18.
- */
-
-/**
+ *
  * LinkedList is part of the Collection framework
  * a linear data structure where the elements are not stored in contiguous locations
  * and every element is a separate object with a data part and address/node part
@@ -13,25 +11,17 @@ package com.zipcodewilmington.singlylinkedlist;
 public class SinglyLinkedList<T extends Comparable<T>> {
 
     // node inner class
-    private class Node<T extends Comparable<T>> implements Comparable<Node<T>> {
-        private T data;
+    private static class Node<T extends Comparable<T>> implements Comparable<Node<T>> {
+        private final T data;
+
         private Node<T> address;
 
         public Node(T data) {
             this.data = data;
         }
-        
-        public Node(T data, Node<T> address) {
-            this.data = data;
-            this.address = address;
-        }
 
         public T getData() {
             return this.data;
-        }
-
-        public void setData(T data) {
-            this.data = data;
         }
 
         public Node<T> getAddress() {

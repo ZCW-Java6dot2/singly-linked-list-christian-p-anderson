@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="completed lab">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="commented back in test for the bubbleSort() method">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testSort">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -207,8 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinglyLinkedListTest.testSort" />
         <item itemvalue="JUnit.SinglyLinkedListTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testSort" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +223,7 @@
       <workItem from="1606623202037" duration="97000" />
       <workItem from="1606623339010" duration="1095000" />
       <workItem from="1606624651371" duration="821000" />
-      <workItem from="1606694746028" duration="1245000" />
+      <workItem from="1606694746028" duration="1594000" />
     </task>
     <task id="LOCAL-00001" summary="completed lab">
       <created>1606624792132</created>
@@ -233,7 +232,35 @@
       <option name="project" value="LOCAL" />
       <updated>1606624792132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactored code and removed unused code in SinglyLinkedList class">
+      <created>1606696047354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606696047354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added comments">
+      <created>1606696096100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606696096100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="formatted code styling">
+      <created>1606696191794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606696191794</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commented back in test for the bubbleSort() method">
+      <created>1606696314792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606696314792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,46 +268,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed lab" />
+    <MESSAGE value="refactored code and removed unused code in SinglyLinkedList class" />
+    <MESSAGE value="added comments" />
+    <MESSAGE value="formatted code styling" />
+    <MESSAGE value="commented back in test for the bubbleSort() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="commented back in test for the bubbleSort() method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3483" y="802" key="#Notifications" timestamp="1606622793494">
       <screen x="3200" y="23" width="1080" height="1897" />
     </state>
     <state x="3483" y="802" key="#Notifications/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606622793494" />
-    <state x="1729" y="101" key="CommitChangelistDialog2" timestamp="1606624791819">
+    <state x="1729" y="101" key="CommitChangelistDialog2" timestamp="1606696314478">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state x="1729" y="101" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606624791819" />
-    <state width="1920" height="323" key="GridCell.Tab.0.bottom" timestamp="1606695973412">
+    <state x="1729" y="101" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696314478" />
+    <state width="1920" height="323" key="GridCell.Tab.0.bottom" timestamp="1606696281213">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606695973412" />
+    <state width="1920" height="323" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281213" />
     <state width="1038" height="560" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018977" />
-    <state width="1920" height="323" key="GridCell.Tab.0.center" timestamp="1606695973409">
+    <state width="1920" height="323" key="GridCell.Tab.0.center" timestamp="1606696281211">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606695973409" />
+    <state width="1920" height="323" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281211" />
     <state width="1038" height="560" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018976" />
-    <state width="1920" height="323" key="GridCell.Tab.0.left" timestamp="1606695973408">
+    <state width="1920" height="323" key="GridCell.Tab.0.left" timestamp="1606696281209">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606695973408" />
+    <state width="1920" height="323" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281209" />
     <state width="1038" height="560" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018975" />
-    <state width="1920" height="323" key="GridCell.Tab.0.right" timestamp="1606695973411">
+    <state width="1920" height="323" key="GridCell.Tab.0.right" timestamp="1606696281211">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606695973411" />
+    <state width="1920" height="323" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281211" />
     <state width="1038" height="560" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018976" />
     <state x="1920" y="287" key="SettingsEditor" timestamp="1606694972046">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
     <state x="1920" y="287" key="SettingsEditor/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606694972046" />
     <state x="3228" y="553" key="SettingsEditor/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606623671927" />
-    <state x="1840" y="347" key="Vcs.Push.Dialog.v2" timestamp="1606624801524">
+    <state x="1840" y="347" key="Vcs.Push.Dialog.v2" timestamp="1606696318830">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state x="1840" y="347" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606624801524" />
+    <state x="1840" y="347" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696318830" />
     <state x="2024" y="528" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606694842034">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
