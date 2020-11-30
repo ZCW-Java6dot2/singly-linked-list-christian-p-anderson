@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="commented back in test for the bubbleSort() method">
+    <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="removed unused methods and made Node class static">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +45,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest">
+  <component name="RunManager" selected="JUnit.com.zipcodewilmington.singlylinkedlist in singlylinkedlist">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -152,6 +153,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlylinkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -206,6 +222,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.zipcodewilmington.singlylinkedlist in singlylinkedlist" />
         <item itemvalue="JUnit.SinglyLinkedListTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testSort" />
       </list>
@@ -223,7 +240,7 @@
       <workItem from="1606623202037" duration="97000" />
       <workItem from="1606623339010" duration="1095000" />
       <workItem from="1606624651371" duration="821000" />
-      <workItem from="1606694746028" duration="1594000" />
+      <workItem from="1606694746028" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="completed lab">
       <created>1606624792132</created>
@@ -260,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606696314792</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed unused methods and made Node class static">
+      <created>1606696568645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606696568645</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,46 +296,47 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="formatted code styling" />
     <MESSAGE value="commented back in test for the bubbleSort() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="commented back in test for the bubbleSort() method" />
+    <MESSAGE value="removed unused methods and made Node class static" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unused methods and made Node class static" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3483" y="802" key="#Notifications" timestamp="1606622793494">
       <screen x="3200" y="23" width="1080" height="1897" />
     </state>
     <state x="3483" y="802" key="#Notifications/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606622793494" />
-    <state x="1729" y="101" key="CommitChangelistDialog2" timestamp="1606696314478">
+    <state x="2137" y="136" key="CommitChangelistDialog2" timestamp="1606696568376">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state x="1729" y="101" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696314478" />
-    <state width="1920" height="323" key="GridCell.Tab.0.bottom" timestamp="1606696281213">
+    <state x="2137" y="136" key="CommitChangelistDialog2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696568376" />
+    <state width="1920" height="323" key="GridCell.Tab.0.bottom" timestamp="1606696662982">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281213" />
+    <state width="1920" height="323" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696662982" />
     <state width="1038" height="560" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018977" />
-    <state width="1920" height="323" key="GridCell.Tab.0.center" timestamp="1606696281211">
+    <state width="1920" height="323" key="GridCell.Tab.0.center" timestamp="1606696662980">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281211" />
+    <state width="1920" height="323" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696662980" />
     <state width="1038" height="560" key="GridCell.Tab.0.center/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018976" />
-    <state width="1920" height="323" key="GridCell.Tab.0.left" timestamp="1606696281209">
+    <state width="1920" height="323" key="GridCell.Tab.0.left" timestamp="1606696662980">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281209" />
+    <state width="1920" height="323" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696662980" />
     <state width="1038" height="560" key="GridCell.Tab.0.left/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018975" />
-    <state width="1920" height="323" key="GridCell.Tab.0.right" timestamp="1606696281211">
+    <state width="1920" height="323" key="GridCell.Tab.0.right" timestamp="1606696662981">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="323" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696281211" />
+    <state width="1920" height="323" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696662981" />
     <state width="1038" height="560" key="GridCell.Tab.0.right/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606597018976" />
-    <state x="1920" y="287" key="SettingsEditor" timestamp="1606694972046">
+    <state x="1920" y="287" key="SettingsEditor" timestamp="1606696678342">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state x="1920" y="287" key="SettingsEditor/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606694972046" />
+    <state x="1920" y="287" key="SettingsEditor/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696678342" />
     <state x="3228" y="553" key="SettingsEditor/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@3200.23.1080.1897" timestamp="1606623671927" />
-    <state x="1840" y="347" key="Vcs.Push.Dialog.v2" timestamp="1606696318830">
+    <state x="1840" y="347" key="Vcs.Push.Dialog.v2" timestamp="1606696572449">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
-    <state x="1840" y="347" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696318830" />
+    <state x="1840" y="347" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606696572449" />
     <state x="2024" y="528" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606694842034">
       <screen x="1280" y="23" width="1920" height="1177" />
     </state>
@@ -322,7 +347,7 @@
     <state x="1970" y="525" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1280.777/1280.23.1920.1177/3200.23.1080.1897@1280.23.1920.1177" timestamp="1606695270949" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/singlylinkedlist$SinglyLinkedListTest.ic" NAME="SinglyLinkedListTest Coverage Results" MODIFIED="1606596070499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/singlylinkedlist$SinglyLinkedListTest.ic" NAME="SinglyLinkedListTest Coverage Results" MODIFIED="1606696586320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zipcodewilmington.singlylinkedlist.*</FILTER>
     </SUITE>
   </component>

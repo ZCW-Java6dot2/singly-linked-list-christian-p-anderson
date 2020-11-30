@@ -172,6 +172,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
                     } else {
                         currentNode.setAddress(lowNode);
                     }
+
                     if (lowPriorNode == null) {
                         this.addressHead = currentNode;
                     } else {
