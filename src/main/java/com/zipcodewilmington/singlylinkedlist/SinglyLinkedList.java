@@ -74,7 +74,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
 
     // remove -- remove an element (specified by numeric index) from the list
     public void remove(int index) {
-        if(index < 0 || index >= size) {
+        if (index < 0 || index >= size) {
             throw new RuntimeException("Node does not exist within bounds.");
         } else {
             Node<T> current = this.addressHead;
