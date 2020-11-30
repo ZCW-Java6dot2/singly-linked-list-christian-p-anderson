@@ -52,6 +52,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     private int size = 0;
     private Node<T> addressHead;
 
+    // Constructor
     public SinglyLinkedList() {
 
     }
