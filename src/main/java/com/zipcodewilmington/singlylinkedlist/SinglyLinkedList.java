@@ -153,7 +153,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     }
 
     // bubble sort
-    public void sort() {
+    public void bubbleSort() {
         Node<T> lowNode = this.addressHead;
         Node<T> lowPriorNode = null;
         Node<T> currentNode;

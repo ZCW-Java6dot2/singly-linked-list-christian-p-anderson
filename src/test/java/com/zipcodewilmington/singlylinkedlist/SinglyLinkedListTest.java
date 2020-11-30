@@ -85,16 +85,16 @@ public class SinglyLinkedListTest {
         assertEquals( -1, list.find(100));
 
     }
-//
-//    @Test
-//    public void testSort() {
-//        list.sort();
-//
-//        Integer[] expected = {5, 10, 20, 30};
+
+    @Test
+    public void testSort() {
+        list.bubbleSort();
+
+        Integer[] expected = {5, 10, 20, 30};
 //        list.print();
-//        for (int i = 0; i < list.size(); i++) {
-//            assertEquals(list.get(i), expected[i]);
-//        }
-//
-//    }
+        for (int i = 0; i < list.size(); i++) {
+            assertEquals(list.get(i), expected[i]);
+        }
+
+    }
 }
