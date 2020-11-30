@@ -12,6 +12,7 @@ package com.zipcodewilmington.singlylinkedlist;
 
 public class SinglyLinkedList<T extends Comparable<T>> {
 
+    // node inner class
     private class Node<T extends Comparable<T>> implements Comparable<Node<T>> {
         private T data;
         private Node<T> address;
@@ -41,18 +42,15 @@ public class SinglyLinkedList<T extends Comparable<T>> {
             this.address = address;
         }
 
-        @Override
+        @Override // due to implementing Comparable
         public int compareTo(Node<T> n) {
             return this.data.compareTo(n.data);
         }
     }
 
+    // Class fields
     private int size = 0;
     private Node<T> addressHead;
-
-    public SinglyLinkedList(Node<T> addressHead) {
-        this.addressHead = addressHead;
-    }
 
     public SinglyLinkedList() {
 
@@ -62,14 +60,14 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     public void add (T data) {
         size++;
         if (this.addressHead == null) {
-            this.addressHead = new Node<T>(data);
+            this.addressHead = new Node<>(data);
         } else {
             Node<T> addressTail = this.addressHead;
 
             while(addressTail.getAddress() != null) {
                 addressTail = addressTail.getAddress();
             }
-            addressTail.setAddress(new Node<T>(data));
+            addressTail.setAddress(new Node<>(data));
         }
     }
 
@@ -139,8 +137,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         }
     }
 
-    // copy -- returns a new linked list containing the same values (look
-    // up deep versus shallow copy)
+    // copy -- returns a new linked list containing the same values (look up deep versus shallow copy)
 
     public SinglyLinkedList<T> copy() {
         SinglyLinkedList<T> newList = new SinglyLinkedList<>();
@@ -154,17 +151,18 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         return newList;
     }
 
+    // bubble sort
     public void sort() {
-        Node<T> lowNode = this.addressHead,
-                lowPriorNode = null,
-                currentNode,
-                lowAddress,
-                currentPriorNode,
-                tempNode;
+        Node<T> lowNode = this.addressHead;
+        Node<T> lowPriorNode = null;
+        Node<T> currentNode;
+        Node<T> lowAddress;
+        Node<T> currentPriorNode;
+        Node<T> tempNode;
 
         for (int i = 0; i < size; i++) {
             currentNode = lowNode;
-            for (int j = i+1; j < size; j++) {
+            for (int j = i + 1; j < size; j++) {
                 currentPriorNode = currentNode;
                 currentNode = currentNode.getAddress();
                 if (currentNode == null) break;
@@ -172,28 +170,23 @@ public class SinglyLinkedList<T extends Comparable<T>> {
                 // Need to swap
                 if (currentNode.compareTo(lowNode) < 0) {
                     lowAddress = lowNode.getAddress();
-                    // Swap low node first
+                    lowNode.setAddress(currentNode.getAddress()); // Swap low node first
 
-                    lowNode.setAddress(currentNode.getAddress());
                     if (currentPriorNode != lowNode) {
                         currentPriorNode.setAddress(lowNode);
                     }
 
+                    if (currentNode != lowAddress) {
+                        currentNode.setAddress(lowAddress);
+                    } else {
+                        currentNode.setAddress(lowNode);
+                    }
                     if (lowPriorNode == null) {
-                        if (currentNode != lowAddress) {
-                            currentNode.setAddress(lowAddress);
-                        } else {
-                            currentNode.setAddress(lowNode);
-                        }
                         this.addressHead = currentNode;
                     } else {
-                        if (currentNode != lowAddress) {
-                            currentNode.setAddress(lowAddress);
-                        } else {
-                            currentNode.setAddress(lowNode);
-                        }
                         lowPriorNode.setAddress(currentNode);
                     }
+
                     tempNode = currentNode;
                     currentNode = lowNode;
                     lowNode = tempNode;
@@ -204,3 +197,5 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         }
     }
 }
+
+
